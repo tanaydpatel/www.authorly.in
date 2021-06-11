@@ -294,9 +294,8 @@ a {
 }
 .footer-text a:hover {
   color: var(--primary-color);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-decoration: underline;
-
   transition: all ease-in-out 0.5s;
 }
 .footer-text img {
@@ -344,6 +343,6 @@ a {
   }
 }
 .copyright {
-  font-size: 1rem;
+  font-size: 12px;
   text-align: center;
 }
