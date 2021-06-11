@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 | Page Not Found</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .notFoundImage {
+        width: 40vw;
+        height: 40vh;
+        margin-top: 5vh;
+      }
+      .goHome {
+        display: block;
+        margin-top: 10vh;
+        text-decoration: none;
+        color: black;
+        background-color: orange;
+        min-width: 200px;
+        min-height: 50px;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        font-weight: bolder;
+        cursor: pointer;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+      .goHome:hover {
+        text-decoration: underline;
+        background-color: rgb(0, 0, 0);
+        color: orange;
+        transition: 0.3s ease-out;
+      }
+      h1 {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Page not found</h1>
+      <img class="notFoundImage" src="./img/not_found.svg" />
+      <button onclick="goHome()" class="goHome" href="https://www.authorly.in">
+        Go back to website
+      </button>
+    </div>
+    <script>
+      function goHome() {
+        window.location.replace("https://www.authorly.in");
+      }
+    </script>
+  </body>
+</html>
