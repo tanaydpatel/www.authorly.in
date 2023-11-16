@@ -77,7 +77,7 @@ navSlide(),
           .classList.toggle("cus-nav"));
   }),
   console.log(
-    "%cThis website is designed,developed and deployed by\n \t\t\t\t\t\t\t\tTANAY PATEL",
+    "%cThis website is designed,developed and deployed by\n \t\t\t\t\t\t\t\tThe Development Studio",
     "color:#ff8b07;font-size:25px;font-family:sans-serif"
   ),
   console.log(
